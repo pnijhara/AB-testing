@@ -1,0 +1,38 @@
+{
+  "name": "ab-testing",
+  "version": "1.0.0",
+  "description": "A/B testing using Epsilon greedy method!",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "create-model": "sequelize model:create"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnijhara/AB-testing.git"
+  },
+  "author": "pnijhara, rnijhara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pnijhara/AB-testing/issues"
+  },
+  "homepage": "https://github.com/pnijhara/AB-testing#readme",
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "nodemon": "^2.0.4",
+    "sequelize-cli": "^6.2.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-jest": "^23.18.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "express": "^4.17.1",
+    "pg": "^8.2.1",
+    "pg-hstore": "^2.3.3",
+    "prettier": "^2.0.2",
+    "sequelize": "^6.3.0"
+  }
+}

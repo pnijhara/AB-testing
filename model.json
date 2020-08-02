@@ -1,0 +1,15 @@
+{
+    "name": "AB testing",
+    "options":[{
+        "name": "blue",
+        "value": "$blue"
+    },{
+        "name": "green",
+        "value": "$green"
+    },
+    {
+        "name": "red",
+        "value": "$red"
+    }],
+    "isactive": true
+}
